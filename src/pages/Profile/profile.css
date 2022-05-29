@@ -1,0 +1,136 @@
+.card {
+  /* margin-top: 20px; */
+  /* margin: 40px auto;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 12px 12px 22px #304051;
+  width: 65rem; */
+  /* height: 20rem; */
+}
+
+.info p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #216583;
+}
+.Detail p {
+  font-size: 17px;
+}
+p {
+  font-family: " Arial, sans-serif";
+}
+.Editbtn,
+.savebtn {
+  background-color: #777777;
+  color: #fff;
+}
+
+.Editbtn {
+  margin: 25px 22px 0px 0px;
+}
+
+.card-img-top {
+  height: 200px;
+  border-radius: 50%;
+  width: 222px;
+}
+
+input {
+  /* border: none; */
+  /* border-bottom: 2px solid; */
+  color: #333;
+  /* margin-bottom: 30px; */
+  width: 100%;
+  box-sizing: border-box;
+}
+.effect {
+  border: 0;
+  padding: 11px 0;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.effect ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #216583;
+  transition: 0.4s;
+}
+.effect:focus ~ .focus-border {
+  width: 90%;
+  transition: 0.4s;
+}
+.inputeffect {
+  position: relative;
+}
+
+:focus {
+  outline: none;
+}
+
+/* input:focus {
+  border: none;
+  border-bottom: 2px solid;
+} */
+
+.card-body p {
+  padding: 5px;
+}
+
+.img-profile:hover .layer {
+  opacity: 1;
+  visibility: visible;
+}
+
+.layer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 50px;
+  left: 45px;
+  width: 222px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+.layer-input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+}
+
+/* input[type="file"] {
+  display: none;
+} */
+
+label {
+  color: white;
+}
+.form-label {
+  color: black;
+}
+
+.contactdetail {
+  padding-left: 16px;
+  padding-top: 10px;
+}
+
+.contactdetail .row {
+  padding: 5px;
+}
+
+.contactdetail .row strong p {
+  padding: 0px;
+  margin-left: 10px;
+}
+
+.updateprofile form .form-group {
+  padding-bottom: 10px;
+}

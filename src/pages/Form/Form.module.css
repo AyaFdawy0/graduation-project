@@ -1,0 +1,234 @@
+/* html,
+body {
+  background: linear-gradient(
+    360deg,
+    hsla(39, 100%, 71%, 1) 0%,
+    hsla(209, 84%, 15%, 1) 100%
+  );
+} */
+.formcontentright {
+  /* background-image: url(bench-accounting-C3V88BOoRoM-unsplash.jpg); */
+  background-size: cover;
+  /* height: 100vh; */
+  /* linear-gradient(
+    360deg,
+    hsla(39, 100%, 71%, 1) 0%,
+    hsla(209, 84%, 15%, 1) 100%
+  ); */
+}
+.navform {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+  /* box-shadow: 2px 1px 5px #a5aaad ,-2px -2px 5px #ffffff; */
+  /* border: rgba(0, 0, 0, 0.3) solid 5px; */
+  background-clip: padding-box;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.logo {
+  display: inline;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.logo > p {
+  display: inline;
+  color: #ffc107;
+  font-family: "Dancing Script", cursive;
+}
+ul li {
+  display: inline;
+  padding: 10px;
+
+  transition: all 0.4s;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+ul li a:hover {
+  color: #ffc107;
+  text-decoration: none;
+
+  transition: all 0.4s;
+}
+
+.child {
+  border-left: 1px solid #595959;
+  text-decoration: none;
+  border-left-color: #ffc107;
+}
+.formcontentright form {
+  width: 500px;
+  height: 660px;
+  margin: auto;
+  border-radius: 10px;
+  /* border: rgba(0, 0, 0, 0.3) solid 5px; */
+  background-clip: padding-box;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.form1 {
+  width: 500px;
+  height: 550px;
+  margin-top: 5px;
+  margin: auto;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.3) solid 5px;
+  background-clip: padding-box;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+h2 {
+  width: 100%;
+  /* text-align: center; */
+  /* border-bottom: 1px solid #062847; */
+  line-height: 0.1em;
+  /* margin: 20px; */
+}
+
+h2 span {
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  padding: 0 8px;
+  color: #fff;
+}
+.form1 .formlabel {
+  padding: 10px;
+}
+.formcontentright form h1,
+.form1 h1 {
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+
+.forminputs {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.forminputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.formlabel {
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forminput {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+
+  box-shadow: 2px 1px 5px rgb(6, 40, 71), -2px -2px 5px #ffffff;
+  border-radius: 30px;
+  border: 1px solid rgb(6, 40, 71);
+}
+
+.forminput::placeholder {
+  color: #595959;
+  font-size: 12px;
+  /* text-align: center; */
+}
+
+.forminputbtn {
+  width: 40%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 30px;
+  max-width: 500px;
+  margin: auto;
+
+  background: rgb(6, 40, 71);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.forminputbtn:hover {
+  cursor: pointer;
+  /* background:#ffc107; */
+  transition: all 0.4s ease-out;
+}
+
+.form-input-login {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+}
+.GoogleLogin {
+  max-width: 500px;
+  margin: auto;
+}
+.uploadsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.imgholder {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  /* border: 2px solid white; */
+}
+.imgProfile {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+}
+
+.uploadsection input[type="file"] {
+  display: none;
+}
+
+.label {
+  position: absolute;
+  top: 80px;
+  left: 265px;
+  background-color: rgb(6, 40, 71);
+  width: 30px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.uplaodicon {
+  font-size: 22px;
+}

@@ -1,0 +1,64 @@
+@import url("http://cdn.syncfusion.com/ej2/material.css");
+
+.eventcalendar {
+  margin-top: 20px;
+}
+
+.fc-prev-button,
+.fc-next-button,
+.fc-today-button {
+  background-color: #216583 !important;
+  border: #216583 !important;
+}
+
+.fc-event-main-frame {
+  background-color: #216583 !important;
+}
+
+.addEventbtn {
+  width: 80px;
+  height: 80px;
+  color: #216583;
+  position: fixed;
+  right: 60px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.fc-daygrid-event {
+  background-color: #216583;
+  color: white;
+}
+
+.fc-event-time,
+.fc-event-title,
+.fc-event-title-container {
+  font-weight: 100 !important;
+}
+
+/* .modalEvent {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+} */
+.eventTitle,
+.eventForm input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.e-input-focus {
+  border-color: transparent !important;
+}
+
+.eventsDetail p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.eventsDetail span {
+  font-weight: 100;
+  color: #797777;
+}

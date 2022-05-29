@@ -1,0 +1,177 @@
+.messeger {
+  height: calc(100vh - 80px);
+  display: flex;
+}
+
+/* .chatMenu {
+  flex: 3.5;
+} */
+
+.chatMenuInput {
+  margin-top: 10px;
+  margin-left: 14px;
+  /* margin-right: 20px; */
+  width: 94%;
+  padding: 17px 11px;
+  /* border: none; */
+  /* border-bottom: 1px solid gray; */
+  background-color: #ecebeb;
+  border-radius: 86px;
+}
+.chatBox {
+  flex: 7.5;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  /* box-shadow: 0px 5px 8px #a5a5a5; */
+}
+.chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: #efeaea; */
+}
+
+/* header chat */
+.headerChat {
+  padding: 7px 13px;
+  background-color: #216583;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 17px;
+  position: relative;
+}
+
+.headerChatimg {
+  width: 50px;
+  margin-right: 20px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.headerChatTitle {
+  color: white;
+  font-size: 19px;
+}
+.chatBoxTop {
+  height: 100%;
+  /* overflow-y: scroll; */
+  padding-right: 10px;
+  padding: 0px 10px;
+  flex: 7.5 1;
+  /* box-shadow: 0px 5px 8px #a5a5a5; */
+  /* margin-top: 21px; */
+  margin-right: 17px;
+  /* margin-bottom: 21px; */
+  overflow-y: scroll;
+  background-color: #efeaea;
+}
+.chatBoxBottom {
+  /* margin-top: 5px;  */
+  /* padding-left: 10px; */
+  /* margin-top: 19px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #efeaea;
+  margin-right: 17px;
+}
+
+.chatMessageInput {
+  width: 87%;
+  /* height: 90px; */
+  /* padding: 10px; */
+  /* width: 92%; */
+  padding: 17px 15px;
+  /* border: none; */
+  /* border-bottom: 1px solid gray; */
+  /* background-color: #ecebeb; */
+  border-radius: 125px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #216583;
+  color: white;
+  margin-right: 24px;
+}
+.chatOnline {
+  flex: 3;
+}
+
+.chatMenuWrapper,
+.chatBoxWrapper,
+.chatOnlineWrapper {
+  /* padding: 0px 10px; */
+  height: 100%;
+}
+
+.startconvsection {
+  text-align: center;
+  /* margin-top: 5rem; */
+  height: 100vh;
+  background-color: #ecebeb;
+  margin-right: 17px;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.startconvsectionImg {
+  /* width: 365px;  */
+  height: 365px;
+  /* border-radius: 50%; */
+  margin-top: 5rem;
+}
+
+.startconvsectionTitle {
+  font-size: 20px;
+}
+.cardconversation {
+  flex: 3.5 1;
+  /* margin-right: 24px; */
+  margin-left: 20px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  box-shadow: 0px 5px 8px #a5a5a5;
+}
+/* .cardchatBox { */
+/* flex: 7.5 1; */
+/* box-shadow: 0px 5px 8px #a5a5a5; */
+/* margin-top: 21px; */
+/* margin-right: 17px; */
+/* margin-bottom: 21px; */
+/* overflow-y: scroll; */
+/* background-color: #efeaea; */
+/* } */
+
+.noconversation {
+  margin-top: 17rem;
+  text-align: center;
+  font-size: 25px;
+  color: gray;
+}
+.icondiv {
+  position: absolute;
+  right: 33px;
+  top: 17px;
+  cursor: pointer;
+}
+.deleteicon {
+  font-size: 22px;
+  color: white;
+}
+.chatsSection {
+  margin-left: 19px;
+  padding-left: 3px;
+  padding-top: 10px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid gray;
+  margin-right: 47px;
+  padding-bottom: 5px;
+}

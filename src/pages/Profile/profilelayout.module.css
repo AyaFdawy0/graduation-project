@@ -1,0 +1,70 @@
+/* p,
+strong {
+  font-family: "Times New Roman", Times, serif;
+}
+.profilecontent strong p {
+  color: #65676b;
+}
+.cardprofile {
+  margin-top: 40px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 1px 11px #304051;
+  width: 54rem;
+}
+
+.imgprofile {
+  position: relative;
+}
+.editimg {
+  position: absolute;
+  top: 179px;
+  right: 13px;
+  background-color: #007bff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.iconimg {
+  color: white;
+  font-size: 29px;
+} */
+
+.cardprofile {
+  margin-top: 20px;
+  border-radius: 3px;
+  /* box-shadow: 0px 1px 7px #b4b8be; */
+  /* width: 55rem; */
+}
+.text-center > .nick {
+  color: #cecece;
+}
+
+.imgprofile {
+  position: relative;
+}
+.editimg {
+  position: absolute;
+  top: 179px;
+  right: 13px;
+  background-color: #216583;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.iconimg {
+  color: white;
+  font-size: 29px;
+}
+
+.imgprofile input[type="file"] {
+  display: none;
+}

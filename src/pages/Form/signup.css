@@ -1,0 +1,126 @@
+.signup,
+.login,
+.activate {
+  width: 70%;
+  margin: auto;
+}
+.signup {
+  margin-top: 7rem;
+  margin-left: 19rem;
+}
+.login {
+  margin-left: 19rem;
+}
+.leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rigthside {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rightside img {
+  width: 34rem;
+}
+
+.signup .form-group input,
+.login .form-group input,
+.activate .form-group input {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  margin: 8px 0px;
+  outline: none;
+  padding: 8px;
+  padding-left: 40px;
+}
+
+.signup .form-group input[type="file"],
+.login .form-group input[type="file"],
+.activate .form-group input[type="file"] {
+  border: none;
+}
+
+.form-group input:focus {
+  border-color: dodgerblue;
+}
+
+.form-group {
+  position: relative;
+}
+.iconinput {
+  color: #aaa;
+  position: absolute;
+  left: 8px;
+  top: 18px;
+  font-size: 20px;
+}
+
+/* .form-group input:focus + .iconinput {
+  color: dodgerblue;
+} */
+
+.imgProfile {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+}
+
+.uploadsection input[type="file"] {
+  display: none;
+}
+
+.label {
+  position: absolute;
+  top: 73px;
+  left: 279px;
+  background-color: #216583;
+  width: 30px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.uplaodicon {
+  font-size: 22px;
+}
+
+.uploadsection {
+  text-align: center;
+  margin-top: 39px;
+}
+
+.leftside h2 {
+  margin-top: 23px;
+  /* text-align: center; */
+}
+.register-form p,
+.login-form p {
+  color: #f00e0e;
+  font-size: 0.9rem;
+}
+
+/* login */
+
+.login h2,
+.activate h2 {
+  margin-bottom: 30px;
+}
+
+.login .form-group,
+.activate .form-group {
+  margin-bottom: 37px;
+}
+
+@media (min-width: 768px) {
+  .mt-md-5,
+  .my-md-5 {
+    margin-top: 10rem !important;
+  }
+}

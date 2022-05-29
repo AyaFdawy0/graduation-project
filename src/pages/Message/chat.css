@@ -1,0 +1,70 @@
+.messege {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.messegeTop {
+  display: flex;
+}
+.messegeImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: fill;
+  margin-right: 10px;
+}
+
+.messegeText {
+  /* padding: 10px;
+  border-radius: 20px;
+  background-color: #1877f2;
+  color: white;
+  max-width: 300px; */
+  /* border-radius: 20px; */
+  /* background-color: #1877f2; */
+  color: white;
+  max-width: 300px;
+  margin: 0px;
+}
+
+.messegeBottom {
+  font-size: 12px;
+  margin-top: 10px;
+}
+.messege.own {
+  align-items: flex-end;
+}
+
+.messege.own .msgcontainer {
+  /* background-color: rgb(245, 241, 241); */
+  background-color: white;
+  /* color: black; */
+}
+.messege.own .msgcontainer .messegeText {
+  color: black;
+}
+
+.messege.own .messegeTime {
+  color: black;
+}
+
+.msgcontainer {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: #216583;
+  /* background-color: #1877f2; */
+
+  border-radius: 20px;
+  /* max-width: 324px; */
+  padding: 10px;
+  justify-content: space-between;
+}
+.messegeTime {
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  margin: 0px;
+  color: white;
+  margin-left: 19px;
+  margin-top: 5px;
+  font-size: 14px;
+}
